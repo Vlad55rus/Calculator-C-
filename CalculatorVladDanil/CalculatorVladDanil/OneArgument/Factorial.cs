@@ -4,13 +4,10 @@
     {
         public double OneArgumentOperation(double firstArgument)
         {
-            int resultate = 1;
-
-            for(int i = 1; i<firstArgument; i++)
-            {
-                resultate *= (int)firstArgument;
-            }
-            return resultate;
+            int res = 1;
+            for (int i = (int)firstArgument; i > 1; i--)
+                res *= i;
+            return res;
         }
     }
 }

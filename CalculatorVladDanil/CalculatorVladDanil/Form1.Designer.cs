@@ -39,7 +39,7 @@
             this.Cosinus = new System.Windows.Forms.Button();
             this.Sqrt = new System.Windows.Forms.Button();
             this.Arccosinus = new System.Windows.Forms.Button();
-            this.Binary = new System.Windows.Forms.Button();
+            this.Two_in_power = new System.Windows.Forms.Button();
             this.Square = new System.Windows.Forms.Button();
             this.Factorial = new System.Windows.Forms.Button();
             this.Ten = new System.Windows.Forms.Button();
@@ -49,7 +49,7 @@
             // 
             // buttonPlus
             // 
-            this.buttonPlus.Location = new System.Drawing.Point(10, 98);
+            this.buttonPlus.Location = new System.Drawing.Point(10, 105);
             this.buttonPlus.Name = "buttonPlus";
             this.buttonPlus.Size = new System.Drawing.Size(58, 23);
             this.buttonPlus.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             // buttonMinus
             // 
-            this.buttonMinus.Location = new System.Drawing.Point(74, 98);
+            this.buttonMinus.Location = new System.Drawing.Point(74, 105);
             this.buttonMinus.Name = "buttonMinus";
             this.buttonMinus.Size = new System.Drawing.Size(58, 23);
             this.buttonMinus.TabIndex = 1;
@@ -69,7 +69,7 @@
             // 
             // buttonMulti
             // 
-            this.buttonMulti.Location = new System.Drawing.Point(138, 98);
+            this.buttonMulti.Location = new System.Drawing.Point(138, 105);
             this.buttonMulti.Name = "buttonMulti";
             this.buttonMulti.Size = new System.Drawing.Size(66, 23);
             this.buttonMulti.TabIndex = 2;
@@ -79,7 +79,7 @@
             // 
             // buttonDivision
             // 
-            this.buttonDivision.Location = new System.Drawing.Point(210, 98);
+            this.buttonDivision.Location = new System.Drawing.Point(210, 105);
             this.buttonDivision.Name = "buttonDivision";
             this.buttonDivision.Size = new System.Drawing.Size(60, 23);
             this.buttonDivision.TabIndex = 3;
@@ -104,14 +104,14 @@
             // labelOut
             // 
             this.labelOut.AutoSize = true;
-            this.labelOut.Location = new System.Drawing.Point(121, 98);
+            this.labelOut.Location = new System.Drawing.Point(135, 76);
             this.labelOut.Name = "labelOut";
             this.labelOut.Size = new System.Drawing.Size(0, 13);
             this.labelOut.TabIndex = 6;
             // 
             // Module
             // 
-            this.Module.Location = new System.Drawing.Point(13, 128);
+            this.Module.Location = new System.Drawing.Point(13, 135);
             this.Module.Name = "Module";
             this.Module.Size = new System.Drawing.Size(75, 23);
             this.Module.TabIndex = 7;
@@ -121,7 +121,7 @@
             // 
             // Cosinus
             // 
-            this.Cosinus.Location = new System.Drawing.Point(94, 128);
+            this.Cosinus.Location = new System.Drawing.Point(94, 135);
             this.Cosinus.Name = "Cosinus";
             this.Cosinus.Size = new System.Drawing.Size(75, 23);
             this.Cosinus.TabIndex = 8;
@@ -131,7 +131,7 @@
             // 
             // Sqrt
             // 
-            this.Sqrt.Location = new System.Drawing.Point(13, 157);
+            this.Sqrt.Location = new System.Drawing.Point(13, 164);
             this.Sqrt.Name = "Sqrt";
             this.Sqrt.Size = new System.Drawing.Size(75, 23);
             this.Sqrt.TabIndex = 9;
@@ -141,7 +141,7 @@
             // 
             // Arccosinus
             // 
-            this.Arccosinus.Location = new System.Drawing.Point(94, 157);
+            this.Arccosinus.Location = new System.Drawing.Point(94, 164);
             this.Arccosinus.Name = "Arccosinus";
             this.Arccosinus.Size = new System.Drawing.Size(75, 23);
             this.Arccosinus.TabIndex = 10;
@@ -149,19 +149,19 @@
             this.Arccosinus.UseVisualStyleBackColor = true;
             this.Arccosinus.Click += new System.EventHandler(this.ClickingOneButton);
             // 
-            // Binary
+            // Two_in_power
             // 
-            this.Binary.Location = new System.Drawing.Point(13, 186);
-            this.Binary.Name = "Binary";
-            this.Binary.Size = new System.Drawing.Size(75, 23);
-            this.Binary.TabIndex = 11;
-            this.Binary.Text = "Binary";
-            this.Binary.UseVisualStyleBackColor = true;
-            this.Binary.Click += new System.EventHandler(this.ClickingOneButton);
+            this.Two_in_power.Location = new System.Drawing.Point(13, 193);
+            this.Two_in_power.Name = "Two_in_power";
+            this.Two_in_power.Size = new System.Drawing.Size(75, 23);
+            this.Two_in_power.TabIndex = 11;
+            this.Two_in_power.Text = "2^x";
+            this.Two_in_power.UseVisualStyleBackColor = true;
+            this.Two_in_power.Click += new System.EventHandler(this.ClickingOneButton);
             // 
             // Square
             // 
-            this.Square.Location = new System.Drawing.Point(94, 186);
+            this.Square.Location = new System.Drawing.Point(94, 193);
             this.Square.Name = "Square";
             this.Square.Size = new System.Drawing.Size(75, 23);
             this.Square.TabIndex = 12;
@@ -171,7 +171,7 @@
             // 
             // Factorial
             // 
-            this.Factorial.Location = new System.Drawing.Point(13, 215);
+            this.Factorial.Location = new System.Drawing.Point(13, 222);
             this.Factorial.Name = "Factorial";
             this.Factorial.Size = new System.Drawing.Size(75, 23);
             this.Factorial.TabIndex = 13;
@@ -181,7 +181,7 @@
             // 
             // Ten
             // 
-            this.Ten.Location = new System.Drawing.Point(94, 215);
+            this.Ten.Location = new System.Drawing.Point(94, 222);
             this.Ten.Name = "Ten";
             this.Ten.Size = new System.Drawing.Size(75, 23);
             this.Ten.TabIndex = 14;
@@ -191,7 +191,7 @@
             // 
             // Arcsinus
             // 
-            this.Arcsinus.Location = new System.Drawing.Point(175, 157);
+            this.Arcsinus.Location = new System.Drawing.Point(175, 164);
             this.Arcsinus.Name = "Arcsinus";
             this.Arcsinus.Size = new System.Drawing.Size(75, 23);
             this.Arcsinus.TabIndex = 15;
@@ -201,7 +201,7 @@
             // 
             // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(175, 128);
+            this.Sinus.Location = new System.Drawing.Point(175, 135);
             this.Sinus.Name = "Sinus";
             this.Sinus.Size = new System.Drawing.Size(75, 23);
             this.Sinus.TabIndex = 16;
@@ -219,7 +219,7 @@
             this.Controls.Add(this.Ten);
             this.Controls.Add(this.Factorial);
             this.Controls.Add(this.Square);
-            this.Controls.Add(this.Binary);
+            this.Controls.Add(this.Two_in_power);
             this.Controls.Add(this.Arccosinus);
             this.Controls.Add(this.Sqrt);
             this.Controls.Add(this.Cosinus);
@@ -251,7 +251,7 @@
         private System.Windows.Forms.Button Cosinus;
         private System.Windows.Forms.Button Sqrt;
         private System.Windows.Forms.Button Arccosinus;
-        private System.Windows.Forms.Button Binary;
+        private System.Windows.Forms.Button Two_in_power;
         private System.Windows.Forms.Button Square;
         private System.Windows.Forms.Button Factorial;
         private System.Windows.Forms.Button Ten;

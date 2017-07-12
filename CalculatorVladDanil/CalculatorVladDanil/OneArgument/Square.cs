@@ -1,6 +1,6 @@
 ﻿namespace CalculatorVladDanil.OneArgument
 {
-    public class Square_of_x : IOneArgumentcalculator
+    public class Square : IOneArgumentcalculator
     {
         public double OneArgumentOperation(double firstArgument)
         {

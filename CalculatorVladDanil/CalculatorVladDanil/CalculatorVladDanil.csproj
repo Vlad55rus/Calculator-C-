@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Sinus.cs" />
+    <Compile Include="OneArgument\Cosinus.cs" />
+    <Compile Include="OneArgument\Arcsinus.cs" />
+    <Compile Include="OneArgument\Arccosinus.cs" />
+    <Compile Include="OneArgument\Module_of_x.cs" />
+    <Compile Include="OneArgument\Sqrt.cs" />
+    <Compile Include="OneArgument\Square.cs" />
+    <Compile Include="OneArgument\Ten_pow_x.cs" />
+    <Compile Include="OneArgument\Factorial.cs" />
+    <Compile Include="OneArgument\Two_pow_x.cs" />
+    <Compile Include="OneArgument\OneArgumentFactory.cs" />
+    <Compile Include="OneArgument\IOneArgument.cs" />
     <Compile Include="TwoArguments\Addition.cs" />
     <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
     <Compile Include="TwoArguments\Substraction.cs" />
@@ -85,9 +97,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArgument\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

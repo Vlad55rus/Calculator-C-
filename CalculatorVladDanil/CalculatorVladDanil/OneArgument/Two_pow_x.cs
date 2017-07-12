@@ -2,11 +2,12 @@
 
 namespace CalculatorVladDanil.OneArgument
 {
-    public class Ten_in_power_of_x: IOneArgumentcalculator
+    public class Two_pow_x: IOneArgumentcalculator
     {
         public double OneArgumentOperation(double firstArgument)
         {
-            return Math.Pow(10, firstArgument);
+            return Math.Pow(2, firstArgument);
         }
     }
 }
+

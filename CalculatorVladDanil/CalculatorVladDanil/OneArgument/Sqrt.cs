@@ -2,7 +2,7 @@
 
 namespace CalculatorVladDanil.OneArgument
 {
-    public class Sqrt_of_x : IOneArgumentcalculator
+    public class Sqrt : IOneArgumentcalculator
     {
         public double OneArgumentOperation(double firstArgument)
         {

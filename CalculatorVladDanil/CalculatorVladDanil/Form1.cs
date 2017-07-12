@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using CalculatorVladDanil.OneArgument;
+using CalculatorVladDanil.TwoArguments;
 
 namespace CalculatorVladDanil
 {
@@ -14,14 +16,15 @@ namespace CalculatorVladDanil
         {
             var firstArgument = Convert.ToDouble(textBoxEntering1.Text);
             var secondArgument = Convert.ToDouble(textBoxEntering2.Text);
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            var calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.ExecuteOperation(firstArgument, secondArgument);
             labelOut.Text = result.ToString();
         }
+
         private void ClickingOneButton(object sender, EventArgs e)
         {
             var firstArgument = Convert.ToDouble(textBoxEntering1.Text);
-            IOneArgumentcalculator  calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            var calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.OneArgumentOperation(firstArgument);
             labelOut.Text = result.ToString();
         }
