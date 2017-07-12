@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CalculatorVladDanil
+﻿namespace CalculatorVladDanil
 {
     public static class OneArgumentFactory
     {
@@ -12,7 +6,8 @@ namespace CalculatorVladDanil
         {
             switch (calculatorName)
             {
-                case 
+                case  :
+                    return new 
             }
         }
     }

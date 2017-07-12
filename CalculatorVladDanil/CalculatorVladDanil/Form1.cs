@@ -21,7 +21,7 @@ namespace CalculatorVladDanil
         private void ClickingOneButton(object sender, EventArgs e)
         {
             var firstArgument = Convert.ToDouble(textBoxEntering1.Text);
-            var calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            IOneArgumentcalculator  calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.OneArgumentOperation(firstArgument);
             labelOut.Text = result.ToString();
         }

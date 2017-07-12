@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculatorVladDanil.OneArgument
 {
-    class Class2
+    public class Cosinus : IOneArgumentcalculator
     {
+        public double OneArgumentOperation(double firstArgument)
+        {
+            return Math.Cos(firstArgument);
+        }
     }
 }
